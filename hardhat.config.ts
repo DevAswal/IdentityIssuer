@@ -48,11 +48,12 @@ const config: HardhatUserConfig = {
     //   url: `${process.env.MUMBAI_RPC_URL}`,
     //   accounts: [`0x${process.env.MUMBAI_PRIVATE_KEY}`]
     // },
-    // amoy: {
-    //   chainId: 80002,
-    //   url: `${process.env.AMOY_RPC_URL}`,
-    //   accounts: [`0x${process.env.AMOY_PRIVATE_KEY}`]
-    // },
+    amoy: {
+      chainId: 80002,
+      // url: `https://polygon-amoy.g.alchemy.com/v2/eaweGMRJOk9Dkxd7ruaIFiiIYK5v6a4K`,
+      url: `https://rpc-amoy.polygon.technology/`,
+      accounts: [`9c77c35303ae22d436f542b9a814a9d448528f2f946770bdf3945a65c8c5cb41`]
+    },
     localhost: {
       url: 'http://127.0.0.1:8545',
       accounts: {
